@@ -11,6 +11,7 @@ The web-scraping was done using Python. Data manipulation and modeling were done
 
 <details>
 <summary><b> Python Modules and Libraries: </b></summary>
+  
 * pandas 
 * BeautifulSoup
 * requests
@@ -25,6 +26,7 @@ The web-scraping was done using Python. Data manipulation and modeling were done
 
  <details>
 <summary><b> R packages:</b></summary>
+  
 * reticulate
 * data.table
 * tidyverse
@@ -39,6 +41,7 @@ The web-scraping was done using Python. Data manipulation and modeling were done
  <details>
  
 <summary><b> Javascript libraries: </b></summary>
+  
 * D3.js 
 * ScrollMagic
   
