@@ -215,7 +215,7 @@ custom_stop_words <- tribble(
 
 `all_movie_topics.csv`: Data set of all of the plot variable words with the probability (beta) that they belong to a particular topic (topic). 
 
-`Animation_company_data.csv`: Data set of the average value of finance, reception, and impact metrics for each studio. 
+`animation_company_data.csv`: Data set of the average value of finance, reception, and impact metrics for each studio. 
 
 The sentiment analysis performed for this project was aimed at determining how positive or negative the language used to describe the movie plots was. This process involved 4 steps: stripping the plot summary data into single words, removing inconsequential words (names, articles, prepositions, etc), joining the words with dictionaries/lexicon that have labeled the valence of our keywords, and calculating the overall sentiment for each studio.
 
