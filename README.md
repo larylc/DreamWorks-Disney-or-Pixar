@@ -224,13 +224,16 @@ Because there is a large amount of freedom in determining how many topics should
 
 ## Sources
 [Pixar Animation Studio](https://en.wikipedia.org/wiki/Pixar): The studio level Wikipedia data was gathered on this page. 
+
 [Pixar Movie List](https://en.wikipedia.org/wiki/List_of_Pixar_films): Go to this page for Pixar movie data.
 
 [Disney Animation Studio](https://en.wikipedia.org/wiki/Walt_Disney_Animation_Studios): The studio level Wikipedia data was gathered on this page. 
+
 [Disney Movie List](https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films): Go to this page for Disney movie data.
 
 
 [DreamWorks Animation Studio](https://en.wikipedia.org/wiki/DreamWorks_Animation): The studio level Wikipedia data was gathered on this page.
+
 [DreamWorks Movie List](https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions): Go to this page for DreamWorks movie data.
 
 
