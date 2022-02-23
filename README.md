@@ -1,10 +1,7 @@
 # DreamWorks-Disney-or-Pixar
 
-## Under Construction...
-
 ## Introduction
 This is a repository for the “DreamWorks, Disney, or Pixar” project.
-
 
 ## Data and Methods 
 The web-scraping was done using Python. Data manipulation and modeling were done in R. The data visualizations were made using HTML, CSS, and D3js.
@@ -54,7 +51,7 @@ Here is where you can find all of the data (**Note:** some movies were not inclu
 
 `all_movies_tidy.csv`: Data set of all studio movies but with each tokenized word from the plot variable having its own row. 
 
-Here are all of the words that were combined with stop words (words that are not useful for sentiment analysis:
+Here are all of the words that were combined with stop words (words that are not useful for sentiment analysis):
 
 ```
 custom_stop_words <- tribble(
@@ -214,18 +211,16 @@ custom_stop_words <- tribble(
 
 `all_movie_sentiment_bing.csv`: Data set of overall studio positivity and negativity scores based on the bind dictionary. 
 
-`all_movie_topics.csv`: Data set of all of the plot variable words with the probability (beta) that they belong to a particular topic (topic). 
+`all_movie_topics.csv`: Data set of all of the plot words with the probability (beta) that they belong to a particular theme (topic). 
 
-`animation_company_data.csv`: Data set of the average value of finance, reception, and impact metrics for each studio. 
+`animation_company_data.csv`: Data set of the average value of finance, reception, duration, and impact metrics for each studio. 
 
 The sentiment analysis performed for this project was aimed at determining how positive or negative the language used to describe the movie plots was. This process involved 4 steps: stripping the plot summary data into single words, removing inconsequential words (names, articles, prepositions, etc), joining the words with dictionaries/lexicon that have labeled the valence of our keywords, and calculating the overall sentiment for each studio.
 
 
 Topic modeling uses a statistical model to uncover abstract topics from textual data. The framework I specifically used was Latent Dirichlet Allocation (LDA) and it involved: taking the studio grouped keywords from the earlier data preparation, generating a document term matrix, and using that matrix to generate the probabilities that each word is associated with a particular topic.
 
-Because there is a large amount of subjectivity with determining how many topics should be generated, how many words should be cut out, and how many high-frequency words should be shown, all of the data used at differing steps will be made available via my GitHub. This exploratory analysis showcases what I thought was relevant. LDA forces us to have at least 2 topics, but from what I found, the words associated with the second topic were not similar enough to derive a clear theme. So I will only be displaying one topic for each studio.
-
-
+Because there is a large amount of freedom in determining how many topics should be generated, how many words should be cut out, and how many high-frequency words should be shown, all of the data used at differing steps is available in this respository. This exploratory analysis showcases what I thought was relevant. 
 
 ## Sources
 [Pixar Animation Studio](https://en.wikipedia.org/wiki/Pixar): The studio level Wikipedia data was gathered on this page. 
