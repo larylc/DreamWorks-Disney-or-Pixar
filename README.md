@@ -51,7 +51,7 @@ Here is where you can find all of the data (**Note:** some movies were not inclu
 
 `all_movies_tidy.csv`: Data set of all studio movies but with each tokenized word from the plot variable having its own row. 
 
-Here are all of the words that were combined with stop words (words that are not useful for sentiment analysis):
+Here are all of the words that were combined with stop words (words that are not useful for sentiment analysis and topic modeling):
 
 ```
 custom_stop_words <- tribble(
@@ -215,7 +215,7 @@ custom_stop_words <- tribble(
 
 `animation_company_data.csv`: Data set of the average value of finance, reception, duration, and impact metrics for each studio. 
 
-The sentiment analysis performed for this project was aimed at determining how positive or negative the language used to describe the movie plots was. This process involved 4 steps: stripping the plot summary data into single words, removing inconsequential words (names, articles, prepositions, etc), joining the words with dictionaries/lexicon that have labeled the valence of our keywords, and calculating the overall sentiment for each studio.
+The sentiment analysis performed for this project was aimed at determining how positive or negative the language used to describe the movie plots was. This process involved 4 steps: stripping the plot summary data into single words, removing inconsequential words (names, articles, prepositions, etc), joining the words with dictionaries/lexicon that have labeled the valence of our keywords, and calculating the average overall movie sentiment for each studio.
 
 
 Topic modeling uses a statistical model to uncover abstract topics from textual data. The framework I specifically used was Latent Dirichlet Allocation (LDA) and it involved: taking the studio grouped keywords from the earlier data preparation, generating a document term matrix, and using that matrix to generate the probabilities that each word is associated with a particular topic.
