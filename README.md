@@ -47,7 +47,7 @@ The web-scraping was done using Python. Data manipulation and modeling were done
 
 Here is where you can find all of the data (**Note:** some movies were not included because of missing information): 
 
-`all_movie_data.csv`:  Data set of all DreamWorks, Disney Animation, and Pixar movies.
+`all_movie_data.csv`:  Data set of all DreamWorks, Disney Animation, and Pixar movies. **Note:** The finance variable values (budget, box-office gross us, box-office gross world)   were rounded to the appropriate significant figures because it was a mixture of data from different wikipedia pages. 
 
 `all_movies_tidy.csv`: Data set of all studio movies but with each tokenized word from the plot variable having its own row. 
 
@@ -207,9 +207,9 @@ custom_stop_words <- tribble(
 
 ```
 
-`all_movie_sentiment_afinn.csv`: Data set of overall studio positivity and negativity scores based on the AFINN dictionary. 
+`all_movie_sentiment_afinn.csv`: Data set of average studio movie positivity and negativity scores based on the "AFINN" dictionary. 
 
-`all_movie_sentiment_bing.csv`: Data set of overall studio positivity and negativity scores based on the bind dictionary. 
+`all_movie_sentiment_bing.csv`: Data set of average studio movie positivity and negativity scores based on the "bing" dictionary. 
 
 `all_movie_topics.csv`: Data set of all of the plot words with the probability (beta) that they belong to a particular theme (topic). 
 
