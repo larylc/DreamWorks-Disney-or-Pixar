@@ -47,7 +47,7 @@ The web-scraping was done using Python. Data manipulation and modeling were done
 
 Here is where you can find all of the data (**Note:** some movies were not included because of missing information): 
 
-`all_movie_data.csv`:  Data set of all DreamWorks, Disney Animation, and Pixar movies. **Note:** The finance variable values (budget, box-office gross us, box-office gross world)   were rounded to the appropriate significant figures because it was a mixture of data from different wikipedia pages. 
+`all_movie_data.csv`:  Data set of all DreamWorks, Disney Animation, and Pixar movies. **Note:** The finance variable values (budget, box-office gross us, box-office gross world)   were rounded to the appropriate significant figures because there was a mixture of data from different wikipedia pages. 
 
 `all_movies_tidy.csv`: Data set of all studio movies but with each tokenized word from the plot variable having its own row. 
 
