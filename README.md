@@ -239,6 +239,8 @@ Because there is a large amount of freedom in determining how many topics should
 
 [IMDB Web-scraped Data](https://www.kaggle.com/stefanoleone992/datasets): The IMDB web-scraped data was gathered by this user. But the page for the dataset no longer exists. 
 
+[How to Make A Cloud Article](https://css-tricks.com/drawing-realistic-clouds-with-svg-and-css/): Use this page to learn how to make clouds using SVG and CSS.
+
 
 
 ## Contact Me
